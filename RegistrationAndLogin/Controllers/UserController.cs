@@ -195,9 +195,9 @@ namespace RegistrationAndLogin.Controllers
             var verifyUrl = "/User/"+EmailFor+"/" + activationCCode;
             var link = Request.Url.AbsoluteUri.Replace(Request.Url.PathAndQuery, verifyUrl);
 
-            var fromEmail = new MailAddress("abjuniorsa@gmail.com", "I am awesome");
+            var fromEmail = new MailAddress("******@gmail.com", "I am awesome");
             var toEmail = new MailAddress(emailId);
-            var fromPassword = "0724307701"; //email password
+            var fromPassword = "******"; //email password
 
             string subject = "";
             string body = "";
